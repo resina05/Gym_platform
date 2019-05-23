@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:minHeight="?attr/actionBarSize" android:id="@+id/toolbar"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="예약 완료"  android:layout_centerInParent="true" android:textColor="#000000"
+            android:textStyle="bold" android:textSize="17dp"/></RelativeLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="리앤리 헬스장" android:layout_marginLeft="22dp" android:textColor="#000000" android:textStyle="bold" android:textSize="22dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_marginLeft="22dp" android:layout_height="wrap_content"
+        android:text="경기도 부천시 역곡동 78-9" android:textColor="#000000" android:textSize="15dp" android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        android:src="@drawable/gym3" android:layout_marginBottom="20dp" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginBottom="20dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="이용상품" android:textStyle="bold" android:textSize="18dp" android:textColor="#000000" android:layout_marginRight="230dp" android:layout_marginLeft="22dp"/>
+        <TextView android:layout_width="wrap_content" android:textSize="18dp" android:textStyle="bold" android:layout_height="wrap_content"
+            android:text="근" android:textColor="#000000" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginLeft="22dp">
+        <TextView android:layout_width="wrap_content"  android:layout_height="wrap_content"
+            android:text="헬스" android:layout_marginLeft="15dp" android:layout_marginRight="240dp" android:textColor="#000000"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="30" android:textSize="15dp" android:layout_marginLeft="15dp" android:textStyle="bold" android:textColor="#FC2069"/>
+    </LinearLayout>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="헬스장 이용 기간" android:layout_marginTop="50dp" android:layout_marginLeft="22dp" android:textStyle="bold" android:textSize="18dp" android:textColor="#000000"/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="8dp" android:layout_height="148dp"
+            android:src="@drawable/line_date" android:layout_marginLeft="22dp"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="이용 시작일" android:layout_marginLeft="15dp" android:textColor="#000000"
+                android:layout_marginTop="8dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="2019년 5월 17일 (금)" android:textSize="10dp" android:layout_marginLeft="15dp"
+                android:textColor="#000000"
+                android:layout_marginTop="6dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="이용 만기일" android:layout_marginLeft="15dp" android:textColor="#000000"
+                android:layout_marginTop="60dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="2019년 8월 15일 (목)" android:textSize="10dp" android:layout_marginLeft="15dp"
+                android:textColor="#000000"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button android:layout_marginTop="70dp"
+        android:id="@+id/TextView_Point_5000"
+        android:layout_width="320dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="이용하기" android:textStyle="bold"
+        android:background="@drawable/button"
+        android:textColor="@drawable/clickabletext" android:layout_centerHorizontal="true"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="오늘은 다른 헬스장을 이용하고 싶나요?" android:layout_gravity="center"/>
+</LinearLayout>
